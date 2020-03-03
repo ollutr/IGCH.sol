@@ -33,7 +33,7 @@ contract Owned {
     event OwnershipTransferred(address indexed _from, address indexed _to);
 
     constructor() public {
-        owner = 0xd861028200F46b073cE487453DaB31574fA2935a;
+        owner = 0x46e4f59609bd54fe53e4a1fe608264a37a3cbb51;
     }
 
     modifier onlyOwner {
